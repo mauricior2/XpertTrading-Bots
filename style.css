@@ -75,11 +75,9 @@ header a:hover{
     color: rgb(92,188,0);}
 
 header a:active {
-        background-color: rgb(109,0,217);
-        box-shadow: 5px 5px 10px rgba(0,0,0,0.9);
-        transform: translateY(5px);
+        transform: translateY(20px);
         border-radius: 25px;
-        border: 5px solid rgba(0,0,0,0.5);
+        border: 5px solid rgba(109,0,217,0.5);
       }
 
 #hero{
@@ -89,7 +87,7 @@ header a:active {
     margin: 0;
     padding-top: 100px;
     color: rgb(255,255,255);
-    background: url("images/05-hero-bk.jpg") repeat 0 0;
+    background: url("images/04-hero-bk.jpg") repeat 0 0;
 }
 
 #hero h1{
@@ -143,6 +141,33 @@ header a:active {
     margin-bottom: 20px;
 }
 
+#features{
+    /* background: wheat; */
+    background: url("images/04-hero-bk.jpg") repeat 0 0;
+    margin: 0;
+    padding-bottom: 30px;
+    display: flex;
+    text-align: center;
+}
+
+.expansion{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#features .feature-1, .feature-2, .feature-3, .feature-4{
+    margin: 10px 0px;
+    color: rgb(255,255,255);
+    background-color: rgb(27,27,27);
+    border: 2px  rgb(124,2,204);
+    border-style: solid;
+    border-radius: 25px;
+    text-align: center;
+    width: 300px;
+    height: auto;
+}
+
 
 
 
@@ -181,5 +206,22 @@ header a:active {
     #subhero .container{
         flex-direction: row;
     }
-}
 
+    .expansion{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #features .feature-1, .feature-2, .feature-3, .feature-4{
+        margin: 0px 10px;
+        color: rgb(255,255,255);
+        background-color: rgb(27,27,27);
+        border: 2px  rgb(124,2,204);
+        border-style: solid;
+        border-radius: 25px;
+        text-align: center;
+        width: 150px;
+        height: 320px;
+    } 
+    
+}
