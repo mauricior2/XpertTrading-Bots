@@ -3,7 +3,10 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0;}
+    margin: 0;
+    /* padding: 0;
+    position: relative;
+    height: 100%; */}
 
 h1{ font-size: 3.5em;}
 h2{ font-size: 3.0em;}
@@ -26,14 +29,12 @@ button{
 
 button:hover{
     background-color: rgb(27,27,27);
-    color: rgb(255,255,255);
-}
+    color: rgb(255,255,255);}
 
 button:active {
     background-color: rgb(92,188,0);
     box-shadow: 5px 5px 10px rgba(0,0,0,0.9);
-    transform: translateY(5px);
-  }
+    transform: translateY(5px);}
 
 .container{
     max-width: 1400px;
@@ -41,9 +42,8 @@ button:active {
 
 header{
     background-color: rgb(27,27,27);
-    position: fixed;
-    width: 100%;
-}
+    position:fixed;
+    width: 100%;}
 
 header .logo{
     margin: 0;
@@ -62,8 +62,7 @@ header nav{
     text-align: center;
     padding-bottom: 25px;
     font-size: 18px;
-    display: none;
-    }
+    display: none;}
 
 header a{
     padding: 5px 12px;
@@ -77,8 +76,7 @@ header a:hover{
 header a:active {
         transform: translateY(20px);
         border-radius: 25px;
-        border: 5px solid rgba(109,0,217,0.5);
-      }
+        border: 5px solid rgba(109,0,217,0.5);}
 
 #hero{
     display: flex;
@@ -87,74 +85,58 @@ header a:active {
     margin: 0;
     padding-top: 100px;
     color: rgb(255,255,255);
-    background: url("images/04-hero-bk.jpg") repeat 0 0;
-}
+    background: url("images/04-hero-bk.jpg") repeat 0 0;}
 
 #hero h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
+    text-align: center;}
 
 #hero ul{
-    text-align: left;
-    
-}
+    text-align: left;}
 
 #hero ul li{
     padding: 15px;
-    font-weight: 600;
-}
+    font-weight: 600;}
 
 #hero button{
-    margin: 35px;
-}
+    margin: 35px;}
 
 #hero img{
-    display: none;
-}
+    display: none;}
 
 #subhero{
-    background-color: rgb(27,27,27);
-}
+    background-color: rgb(27,27,27);}
 
 #subhero .container{
     color: rgb(255,255,255);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-}
+    justify-content: space-around;}
 
 #subhero .container .subhero-text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-evenly;
-}
+    justify-content:space-evenly;}
 
 .subhero-text{
     text-align: center;
-    font-size: 10px;
-}
+    font-size: 10px;}
 
 #subhero .container .subhero-text button{
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px;}
 
 #features{
-    /* background: wheat; */
     background: url("images/04-hero-bk.jpg") repeat 0 0;
     margin: 0;
-    padding-bottom: 30px;
+    padding: 30px 0;
     display: flex;
-    text-align: center;
-}
+    text-align: center;}
 
 .expansion{
     display: flex;
-    flex-direction: column;
-
-}
+    flex-direction: column;}
 
 #features .feature-1, .feature-2, .feature-3, .feature-4{
     margin: 10px 0px;
@@ -165,13 +147,79 @@ header a:active {
     border-radius: 25px;
     text-align: center;
     width: 300px;
-    height: auto;
+    height: auto;}
+
+.feature-1, .feature-2, .feature-3, .feature-4  p{
+    padding: 0 5px;}
+
+.swiper{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color:  rgb(27,27,27);}
+
+.swiper-slide{
+    width:300px;
+    height: 600px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px rosybrown;
+    padding: 40px;
+    text-align: center;}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;}
+
+.icons i{
+    font-size: 20px;
+    color:rgb(124,2,204);}
+
+.icons img{
+    width: 40px;}
+
+.product-content{
+    display: flex;
+    justify-content: space-between;}
+
+.product-txt{
+    flex-basis: 50%;
+    text-align: left;}
+
+.product-txt span{
+    font-size: 25px;
+    color:red;
+    font-weight: bold;}
+
+.product-txt h3{
+    font-size: 20px;
+    color:blue;
+    text-transform: uppercase;
 }
 
+.product-txt p{
+    font-size: 14px;
+    color:violet;
+}
 
+.product-img{
+    flex-basis: 50%;
+    text-align: right;
+}
 
+.product-img img{
+    width: 120px;
+}
 
-
+.btn-1{
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid green;
+    border-radius: 25px;
+    color:magenta;
+    text-decoration: none;
+    margin-top: 50px;
+}
 
 
 
@@ -221,7 +269,7 @@ header a:active {
         border-radius: 25px;
         text-align: center;
         width: 150px;
-        height: 320px;
+        height: 340px;
     } 
     
 }
