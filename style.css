@@ -102,7 +102,7 @@ header a:active {
     margin: 35px;}
 
 #hero img{
-    display: none;}
+    display:inline;}
 
 #subhero{
     background-color: rgb(27,27,27);}
@@ -275,7 +275,7 @@ text-align: center;
     }
 
     #hero img{
-        display: inline;
+        display:inline;
     }
 
     #subhero .container{
