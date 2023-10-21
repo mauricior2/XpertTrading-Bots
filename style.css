@@ -3,10 +3,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    /* padding: 0;
-    position: relative;
-    height: 100%; */}
+    margin: 0;}
 
 h1{ font-size: 3.5em;}
 h2{ font-size: 3.0em;}
@@ -249,6 +246,85 @@ text-align: center;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.9);
     transform: translateY(5px);}
 
+#FAQ{
+    background: url("images/04-hero-bk.jpg") repeat 0 0;}
+
+.faq-header{  
+    font-size: 42px;
+    border-bottom: 1px dotted rgb(255,255,255);
+    padding: 24px;
+    color:rgb(255,255,255);
+    text-align: center;
+    font-weight: bold;}
+
+.faq-content {
+    margin: 0 auto;}
+    
+.faq-question {
+    padding: 20px 0;
+    border-bottom: 1px dotted rgb(255,255,255);
+    color:rgb(255,255,255);}
+
+.panel-title {
+    font-size: 24px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 10px 10px 0 48px;
+    display: block;
+    cursor: pointer;
+    }
+
+.panel-content {
+    font-size: 20px;
+    padding: 0px 14px;
+    margin: 0 40px;
+    height: 0;
+    overflow:auto;
+    z-index: 0;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+    color:rgb(27,27,27);
+    }
+
+.panel:checked ~ .panel-content{
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+.plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 5;
+  font-size: 42px;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.panel {
+  display: none;
+}
 
 
 @media (min-width: 720px) {
