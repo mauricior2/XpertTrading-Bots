@@ -24,8 +24,8 @@
             <nav>
                 <a href="#features">FEATURES</a>
                 <a href="#products">PRODUCTS</a>
-                <a href="#features">RESULTS</a>
-                <a href="#features">FAQ</a>
+                <a href="#results">RESULTS</a>
+                <a href="#FAQ">FAQ</a>
             </nav>
         </div>
     </header>
@@ -39,7 +39,7 @@
             <li><img src="./images/04.01-ckeck.png" alt="Tick" width="35" height="35">  FULL CONTROL OF YOUR INVESTMENTS</li>
             <li><img src="./images/04.01-ckeck.png" alt="Tick" width="35" height="35">  TUTORIALS AND INSTRUCTIONS INCLUDED</li> 
         </ul>
-        <button>DISCOVER OUR BOTS</button>
+        <button onclick="window.location.href='#products';">DISCOVER OUR BOTS</button>
     </section>
 
     <section id="subhero">
@@ -53,7 +53,7 @@
                     Them were developed by <span style="color:rgb(92,188,0);">XpertTrading Bots™ </span> and does all
                     the hard work for you, so you can make money even while you sleep. Some of our 
                     members are already doing it.</h4><br>
-                    <button b> CHECK THE RESULTS</button b>
+                    <button b onclick="window.location.href='#results';"> CHECK THE RESULTS</button b>
             </div>
         </div>
     </section>
@@ -270,6 +270,21 @@
 
     </script>
 
+    <section id="results">
+        <div class="container">
+            <hr>
+            <h4 style="color: rgb(255,255,255); font-size: 30px;">SOME RESULTS:</h4>
+            <div class="mt4">
+                <p><img src="./images/19-result1.png" width="250" height="500">
+
+                <img src="./images/20-result2.png" width="250" height="500">
+
+                <img src="./images/21-result3.png" width="250" height="500"></p>
+            </div>
+                 
+        </div>
+
+    </section>
 
     <section id="FAQ">
         <div class="container">
@@ -279,39 +294,86 @@
             <input id="q1" type="checkbox" class="panel">
             <div class="plus">+</div>
             <label for="q1" class="panel-title">How does it work?</label>
-            <div class="panel-content">After you pay the one time fee, you will instantly receive a 
-                Discord link that will give you access to download the software. Our Discord community 
-                also includes tutorial videos, settings, and a chat section with our community so you can 
-                ask questions if you need any help. We also have dedicated support that you can DM to help 
-                you with setup if you are having trouble with the tutorials.</div>
+            <div class="panel-content">Once your one-time fee has been paid and confirmed by our team, 
+                you will need to provide us with the account numbers that you will be trading on. 
+                Within 24 hours, you will receive your unique Expert Advisor, as well as tutorials on 
+                installation and settings. We also offer dedicated support on this chat, which you can DM 
+                if you are having trouble with the tutorials.</div>
             </div>
 
             <div class="faq-question">
             <input id="q2" type="checkbox" class="panel">
             <div class="plus">+</div>
-            <label for="q2" class="panel-title">How does it work?</label>
-            <div class="panel-content">After you pay the one time fee, you will instantly receive a 
-                Discord link that will give you access to download the software. Our Discord community 
-                also includes tutorial videos, settings, and a chat section with our community so you can 
-                ask questions if you need any help. We also have dedicated support that you can DM to help 
-                you with setup if you are having trouble with the tutorials.</div>
+            <label for="q2" class="panel-title">Is the Expert Advisor compatible with Mac and PC?</label>
+            <div class="panel-content">Yes, the Expert Advisor is compatible with both Mac and PC. 
+                You only need to have the MT4 software installed on your computer. We also provide a 
+                step-by-step guide on how to do this. After initial setup, you can also monitor the Expert 
+                Advisor from your iPhone or Android device.</div>
             </div>
 
             <div class="faq-question">
             <input id="q3" type="checkbox" class="panel">
             <div class="plus">+</div>
-            <label for="q3" class="panel-title">How does it work?</label>
-            <div class="panel-content">After you pay the one time fee, you will instantly receive a 
-                Discord link that will give you access to download the software. Our Discord community 
-                also includes tutorial videos, settings, and a chat section with our community so you can 
-                ask questions if you need any help. We also have dedicated support that you can DM to help 
-                you with setup if you are having trouble with the tutorials.</div>
+            <label for="q3" class="panel-title">How many accounts can I run the Expert Advisor on?</label>
+            <div class="panel-content">You can run the Expert Advisor on two of your own accounts, whether they are demo, 
+                live, or prop firm accounts. We will send you two versions of the software, one for each of the two accounts 
+                that you provide. You may choose any broker that you wish; we do not restrict you to any particular broker.</div>
             </div>
 
+
+            <div class="faq-question">
+                <input id="q4" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="q4" class="panel-title">What type of file do I receive and on what program does it run?</label>
+                <div class="panel-content">You will receive an EX4 EA file, which runs on MetaTrader 4 (MT4).</div>
+            </div>
+
+            <div class="faq-question">
+                <input id="q5" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="q5" class="panel-title">Is prior trading experience required to use the software?</label>
+                <div class="panel-content">While prior trading experience is beneficial, it is not required to use the software. 
+                    We provide instructions to assist you.</div>
+            </div>
             
+            <div class="faq-question">
+                <input id="q6" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="q6" class="panel-title">Are there any refunds?</label>
+                <div class="panel-content">Due to the digital nature of our product, we have a strict no refund policy, 
+                    as clearly stated in our Terms and Conditions Policy. Customers are required to carefully review and agree 
+                    to this policy before making a purchase. Customers should understand the risks involved in trading and be 
+                    fully informed about the nature of our product. We strive to provide as much assistance and communication as 
+                    possible to help our clients succeed with our software. Our software is protected by copyright laws under 
+                    intellectual property rights. Any unauthorized distribution or sharing of our software is strictly prohibited. 
+                    Please review our Terms and Conditions for more detailed information regarding refunds, risks, and software usage guidelines.</div>
+            </div>
+       
+
+            <div class="faq-question">
+                <input id="q7" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="q7" class="panel-title">Can we share the software?</label>
+                <div class="panel-content">No, sharing the software is prohibited, as stated in our Terms and Conditions. 
+                    If you share the software with a user who has not paid for it, you will be immediately banned and will 
+                    no longer be able to access a usable software file. This is prohibited, and IP addresses will be tracked. 
+                    Please do not take this risk. We reserve the right to deny access to both users. No refunds will be made.</div>
+            </div>
+
+
         </div>
 
 
     </section>
+
+    <section id="footer">
+        <p class="logo"><img src="./images/03-logo-full.png" alt="Logo" width="auto" height="70"></p>
+        <h5>© XpertTrading Bots. All rights reserved. </h5>
+        <h6>Terms & Conditions <br>
+            Privacy Policy</h6>
+
+
+    </section>
+
 </body>
 </html>
