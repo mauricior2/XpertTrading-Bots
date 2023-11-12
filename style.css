@@ -258,18 +258,13 @@ text-align: center;
 #footer{
     background-color: rgb(27,27,27);
     margin: 0;
-    padding: 30px 0;
+    padding: 0px 0;
     display: flex;
     text-align: center;
     flex-direction: column;
     color: rgb(255,255,255);
 }
 
-#footer h6{
-    text-decoration:underline;
-    color:rgb(127, 155, 255);
-
-}
 
 #FAQ{
     background: url("images/04-hero-bk.jpg") repeat 0 0;
@@ -352,6 +347,47 @@ text-align: center;
 .panel {
   display: none;
 }
+
+
+
+#terms{
+    background-color: rgb(255,255,255);
+    padding: 60px;}
+
+#terms .container{
+    color: rgb(27,27,27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;}
+
+#terms .container .terms-text{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:space-evenly;
+    padding: 60px;
+}
+
+#terms .container .terms-text h5{
+font-weight:400;
+font-size:small;
+align-items: start;
+justify-content: start;
+text-align: justify;
+}
+
+#terms .container .terms-text h4{
+    text-align: justify;
+    }
+
+
+.terms-text{
+    text-align: center;
+    font-size: 10px;}
+
+
+
 
 
 @media (min-width: 720px) {
